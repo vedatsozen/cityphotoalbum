@@ -1,0 +1,147 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(to right, black, red);
+}
+
+#container {
+    margin: auto;
+    margin-top: 30px;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#container > div {
+    width: 1000px;
+  
+}
+
+#cities {
+    height: 80px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+#cities > button {
+    background-color: red;
+    color: white;
+    padding:10px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+#cities > button:hover {
+    background-color: rgb(211, 35, 35);
+}
+
+#cities > button:active {
+    transform: scale(0.9);
+}
+
+#photos {
+    height: 400px;
+   
+}
+
+
+
+#istanbul {
+    margin-top:30px;
+    height:100px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+    display: block;
+}
+
+#istanbul > button {
+    background-color: red;
+    color: white;
+    padding:10px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+#istanbul > button:hover {
+    background-color: rgb(211, 35, 35);
+}
+
+#istanbul > button:active {
+    transform: scale(0.9);
+}
+
+#izmir {
+    margin: auto;
+    margin-top:30px;
+    height:100px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+    display: none;
+}
+
+#izmir > button {
+    background-color: red;
+    color: white;
+    padding:10px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+#izmir > button:hover {
+    background-color: rgb(211, 35, 35);
+}
+
+#izmir > button:active {
+    transform: scale(0.9);
+}
+
+#ankara {
+    margin-top: 30px;
+    height: 80px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+    display: none;
+}
+
+#ankara > button {
+    background-color: red;
+    color: white;
+    padding:10px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+#ankara > button:hover {
+    background-color: rgb(211, 35, 35);
+}
+
+#ankara > button:active {
+    transform: scale(0.9);
+}
+
+img {
+    height:400px;
+    width:1000px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px black;
+    border-radius: 3px;
+}
